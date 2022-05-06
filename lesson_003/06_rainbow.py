@@ -11,7 +11,7 @@ rainbow_colors = (sd.COLOR_RED, sd.COLOR_ORANGE, sd.COLOR_YELLOW, sd.COLOR_GREEN
 # TODO здесь ваш код
 
 sd.resolution = (1200, 600)
-count_of_colors = rainbow_colors.__len__()
+count_of_colors = len(rainbow_colors)
 i = 0
 for i in range(0, count_of_colors):
     rainbow_value = rainbow_colors[i]

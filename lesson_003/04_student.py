@@ -17,8 +17,8 @@ i = 0
 sum_exp = expenses
 while i in range(0, 9):
     expenses += expenses * 0.03
-    i += 1
     sum_exp = sum_exp + expenses
+    i += 1
     print(expenses)
     print(i)
 else:

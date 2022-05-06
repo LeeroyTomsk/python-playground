@@ -20,8 +20,8 @@ for i in range(3):
 def bubble(point, step):
     radius = 50
     for _ in range(3):
-        radius += step
         sd.circle(center_position=point, radius=radius, width=2)
+        radius += step
 
 
 point = sd.get_point(300, 300)

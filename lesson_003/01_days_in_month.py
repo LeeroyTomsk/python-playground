@@ -7,13 +7,13 @@
 # Если номер месяца некорректен - сообщить об этом
 
 # Номер месяца получать от пользователя следующим образом
-user_input = input("Введите, пожалуйста, номер месяца: ")
-month = int(user_input)
-print('Вы ввели', month)
+# user_input = input("Введите, пожалуйста, номер месяца: ")
+# month = int(user_input)
+# print('Вы ввели', month)
 
 # TODO здесь ваш код
 
-user_input = input("Введите, пожалуйста, номер месяца: ", )
+user_input = input("Введите, пожалуйста, номер месяца: ")
 if user_input.isdigit():
     month = int(user_input)
     if month in range(1, 13):
