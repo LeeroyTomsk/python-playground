@@ -33,3 +33,4 @@ print (zoo)
 
 print  ('Лев сидит в ' + str((zoo.index('lion') + 1)) + ' клетке')
 print  ('Жаворонок сидит в ' + str((zoo.index('lark') + 1)) + ' клетке')
+

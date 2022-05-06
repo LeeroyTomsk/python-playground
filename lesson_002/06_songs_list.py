@@ -29,6 +29,7 @@ total_value = halo_value + enjoy_value + clean_value
 
 print ('Три песни звучат ' + str(total_value) + ' минут')
 
+
 # Есть словарь песен группы Depeche Mode
 
 violator_songs_dict = {
@@ -54,4 +55,6 @@ bluedress = violator_songs_dict ['Blue Dress']
 
 nextvalue = round ( sweet + policy + bluedress, 2) #тут пришлось юзать round, т.к. без него выдавало 9 в периоде
 
+
 print ('А другие 3 песни звучат ' + str(nextvalue) + ' минут')
+

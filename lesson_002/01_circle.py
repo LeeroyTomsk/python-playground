@@ -18,6 +18,7 @@ pi # АНТОН: Пи я спициально заимпортил из библ
 print (round (pi * (radius ** 2), 4))
 
 
+
 # Далее, пусть есть координаты точки
 point = (23, 34)
 # где 23 - координата х, 34 - координата у
@@ -32,7 +33,9 @@ point = (23, 34)
 # TODO здесь ваш код
 
 point_length = sqrt((point[0]**2) + (point[1]**2))
+
 print (point_length < radius)
+
 
 # Аналогично для другой точки
 point_2 = (30, 30)
@@ -41,7 +44,9 @@ point_2 = (30, 30)
 # TODO здесь ваш код
 
 point_2_length = sqrt((point_2[0]**2) + (point_2[1]**2))
+
 print (point_2_length < radius)
+
 
 # Пример вывода на консоль:
 #
