@@ -22,12 +22,12 @@ violator_songs_list = [
 
 # TODO здесь ваш код
 
-halo_value = float (violator_songs_list[3][1])
-enjoy_value = float (violator_songs_list[6][1])
-clean_value = float (violator_songs_list[-1][1])
+halo_value = violator_songs_list[3][1]
+enjoy_value = violator_songs_list[6][1]
+clean_value = violator_songs_list[-1][1]
 total_value = halo_value + enjoy_value + clean_value
 
-print (str('Три песни звучат ' + str(total_value) + ' минут'))
+print ('Три песни звучат ' + str(total_value) + ' минут')
 
 # Есть словарь песен группы Depeche Mode
 
@@ -54,4 +54,4 @@ bluedress = violator_songs_dict ['Blue Dress']
 
 nextvalue = round ( sweet + policy + bluedress, 2) #тут пришлось юзать round, т.к. без него выдавало 9 в периоде
 
-print (str('А другие 3 песни звучат ' + str(nextvalue) + ' минут'))
+print ('А другие 3 песни звучат ' + str(nextvalue) + ' минут')
